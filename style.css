@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgb(151, 9, 9);
+}
+
+.form h2{
+    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box{
+    padding: 10px;
+    width: 60%
+    margin: 15px;   
+}
+
+.submit{
+    padding: 100px 400px;
+    margin-top: 50px;
+    width:40%
+}
